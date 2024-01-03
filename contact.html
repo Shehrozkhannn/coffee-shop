@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" sizes="30x30" href="./Images/icon.jpg">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./Images/logo.png" width="220" height="46">
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./signin.html">Sign in</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./users.html">Users</a></li>
+                <li><a href="./signin.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo-container">
+            <img src="./Images/logo.png" alt="">
+        </div>
+        <div class="main">
+            <div class="register">
+                <div class="coffee-img">
+                    <img src="./Images/icon-removebg-preview.png" alt="">
+                </div>
+                <h2 class="registration-title">Contact Us</h2>
+                <form id="contactForm" method="post" onsubmit="contactFormSubmit(event)">
+                <label>First Name : </label>
+                <br>
+                <input type="text" id="name">
+                <br><br>
+                <label>Last Name : </label>
+                <br>
+                <input type="text" id="lname">
+                <br><br>
+                <labe>Your age : </labe>
+                <br>
+                <input type="number" name="age" id="age">
+                <br><br>
+                <input type="submit" value="submit" name="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

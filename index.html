@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <link rel="icon" sizes="30x30" href="./Images/icon.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="logo">
+                <img src="./Images/logo.png" width="220" height="46">
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./signin.html">Sign in</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./users.html">Users</a></li>
+                    <li><a href="./signin.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid-container">
+            <div class="body">
+                <h1>Coffee House</h1>
+            </div>
+            <div class="button">
+                <p>We’ll meet you in your inbox. Drink deals are on their way.</p>
+                <button type="button" class="btn btn-warning"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"
+                >READ MORE</button>
+            </div>
+            <!-- Details modal  -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Coffee Shop</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        No kitchen, no cooking , Most snacks are home-made, supporting women entrepreneurs. Work bench with power/USB Free drinking water!
+                        We support inclusion, low-waste, recycling, the transgender community, and eco-friendly practice
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="top-images">
+
+                <img src="./Images/topimage.jpeg" height="160" width="160">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Images/top1.jpeg" height="160" width="160">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Images/top2.jpeg" height="160" width="160">
+            </div>
+            <div class="menu">
+                <h1>MENU</h1>
+            </div>
+        </div>
+        <div class="images">
+            <div class="content-inside-picture">
+                <img src="./Images/coffee4-removebg-preview.png" width="300" height="300">
+                <h1>Lattee Coffee</h1>
+                <!-- Model button -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(0)">
+                    Details
+                </button>
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee7-removebg-preview.png" width="300" height="300">
+                <h1>Expresso Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(1)">
+                    Details
+                </button>
+
+
+
+
+            </div>
+            <div class="content-inside-picture">
+                <img src="./Images/coffee3.png" width="300" height="300">
+                <h1>Black Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(2)">
+                    Details
+                </button>
+
+
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee5-removebg-preview.png" width="300" height="300">
+                <h1>Decaf Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(3)">
+                    Details
+                </button>
+
+
+
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee6-removebg-preview.png" width="300" height="300">
+                <h1>Cappuccino Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(4)">
+                    Details
+                </button>
+
+
+
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee8-removebg-preview.png" width="300" height="300">
+                <h1>Macchiato Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(5)">
+                    Details
+                </button>
+
+
+
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee10-removebg-preview.png" width="300" height="300">
+                <h1>Ristretto Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(6)">
+                    Details
+                </button>
+
+
+            </div>
+
+            <div class="content-inside-picture">
+                <img src="./Images/coffee11-removebg-preview.png" width="300" height="300">
+                <h1>Flat White Coffee</h1>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    onclick="showItem(7)">
+                    Details
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- <h1 class="modal-body-title"></h1> -->
+                    <img src="" alt="" class="modal-image" width="300" height="300">
+                    <h2 class="modal-rs"></h2>
+                    <h5 class="modal-description"></h5>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="section-1">
+            <div class="one">
+                <h3>About Us</h3>
+                <ul>
+                    <li>Company</li>
+                    <li>Blog</li>
+                    <li>Teachers</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+
+            <div class="one">
+                <h3>Learning</h3>
+                <ul>
+                    <li>e-Portal</li>
+                    <li>Reports</li>
+                    <li>Policies</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+
+            <div class="one">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Contact</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+
+            <div class="one">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li>Company</li>
+                    <li>Blog</li>
+                    <li>Teachers</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fa fa-facebook-official" style="font-size:36px"></i>
+            <i class="fa fa-git-square" style="font-size:36px"></i>
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+            <i class="fa fa-snapchat-square" style="font-size:36px"></i>
+            <i class="fa fa-youtube-square" style="font-size:36px"></i>
+        </div>
+        <div>
+            <span id="end">All rights reserved by &copy;conceptial 2021</span>
+            <hr style="clear: both;">
+        </div>
+        <script src="./script.js"></script>
+    </footer>
+</body>
+
+</html>

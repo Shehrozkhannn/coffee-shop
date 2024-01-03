@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Images/coffeehouse.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    height: 50px;
+    
+}
+.logo{
+    padding: 2px;
+
+}
+.links ul{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* background-color: #dddddd; */
+}
+a:hover{
+    color:#ce6d06 !important;
+}
+.links img{
+    padding-left: 1326px;
+    margin: 1.25px
+}
+.error1{
+    color: red;
+}
+
+/* form */
+.loginbox{
+    width: 320px;
+    height: 444px;
+    background: #333;
+    color: #fff;
+    top : 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 28px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: calc(50% - 50px);
+    top: -1%;
+}
+h1{
+    padding: 14px;
+    text-align: center;
+    font-size: 24px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type = "text"], input[type = "password"] ,input[type = "password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.loginbox input[type = "submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ce6d06;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type = "submit"]:hover{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.loginbox a:hover{
+    color: #ffc107;
+}

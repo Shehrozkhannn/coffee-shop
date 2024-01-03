@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signin.css">
+    <link rel="icon" sizes="30x30" href="./Images/icon.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <title>Sign in</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./Images/logo.png" width="220" height="46">
+        </div>
+    </div>
+    <div id="liveAlertPlaceholder"></div>
+    <!-- Form -->
+    <div class="loginbox">
+        <img src="./Images/login.png" class="avatar">
+        <h1>Login Here</h1>
+
+
+        <form name="myForm" onsubmit="validateForm(event)">
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" name="username" id="name" onkeypress="checkUserName()">     
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password" name="pass" id="password"><span class="error1"></span>
+            <input type="submit" value="Login" onclick="login()">
+            <a href="#">Lost your password</a><br>
+            <a href="./signup.html">Dont have an account</a>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

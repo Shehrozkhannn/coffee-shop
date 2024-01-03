@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contactForm{
+    margin-top: 22px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('./Images/coffeehouse.jpg');
+}
+.logo-container{
+    margin: 28px 0px;
+}
+.container p{
+    padding: 70px;
+    text-decoration: none;
+}
+.container p:hover{
+    color: rgb(9, 9, 10);
+    font-weight:bold ;
+
+}
+.main {
+    width: 368px;
+    background: #ffffff;
+    border: 8px solid #333;
+    border-radius: 20px;
+    height: 60%;
+}
+div.register{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    color:black;
+}
+form #register{
+    margin: 40px;
+}
+.registration-title{
+    padding: 0px;
+}
+.coffee-img{
+    height: 56px;
+}
+.coffee-img img{
+    height: 79px;
+}
+input[type=submit] {
+    margin-top: 12px;
+    height: 34px;
+    width: 130px;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #333
+}
